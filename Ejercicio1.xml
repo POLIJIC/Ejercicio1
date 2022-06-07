@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE listaventas SYSTEM "Ejercicio1.dtd">
+<listaventas clave="any7:5478-ABCDEF" xml:lang="es">
+    <venta>
+        <importe>10000</importe>
+        <comprador>Kevin Alvarez</comprador>
+        <vendedor>Adrian Caro</vendedor>
+        <fecha>20/12/2020</fecha>
+        <codigofactura>COD20</codigofactura>
+    </venta>
+    <venta>
+        <importe>6000</importe>
+        <comprador>Omar Perez</comprador>
+        <vendedor>Fabio Cardona</vendedor>
+        <codigofactura>COD25</codigofactura>
+    </venta>
+    <venta>
+        <importe>5000</importe>
+        <comprador>Felipe Parra</comprador>
+        <vendedor>Fabio Cardona</vendedor>
+        <codigofactura>COD26</codigofactura>
+    </venta>
+</listaventas>

@@ -1,0 +1,13 @@
+
+<!ELEMENT listaventas (venta)+>
+<!ATTLIST listaventas version CDATA #FIXED "1.1"
+        clave NMTOKEN #REQUIRED
+        >
+<!ATTLIST listaventas xml:lang (es|en) #REQUIRED>
+<!ELEMENT venta (importe, comprador, vendedor, fecha?, codigofactura)>
+<!ELEMENT importe (#PCDATA)>
+<!ELEMENT comprador (#PCDATA)>
+<!ELEMENT vendedor (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT codigofactura (#PCDATA)>
+
